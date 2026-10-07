@@ -24,6 +24,7 @@ export default function Projects() {
                 {p.tags.map((t) => (
                   <span key={t} className="bg-white/10 px-3 py-1 rounded-full">{t}</span>
                 ))}
+                
               </div>
               <span className="mt-8 pt-5 border-t border-edge font-bold inline-flex items-center gap-2">
                 {p.cta} <Icon name="ext" />

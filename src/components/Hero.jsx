@@ -82,6 +82,7 @@ export default function Hero() {
             <div className="pg pg-a"><b>COSAKATA</b><i style={{ width: "90%" }} /><i style={{ width: "75%" }} /><i style={{ width: "85%" }} /><i style={{ width: "55%" }} /><i style={{ width: "80%" }} /></div>
             <div className="pg pg-b"><b>REACT</b><i style={{ width: "80%" }} /><i style={{ width: "60%" }} /><i style={{ width: "90%" }} /><i style={{ width: "50%" }} /></div>
             <div className="pg pg-c"><b>VERCEL</b><i style={{ width: "95%" }} /><i style={{ width: "70%" }} /><i style={{ width: "85%" }} /></div>
+            <div className="pg pg-d"><b>SEJARAH</b><i style={{ width: "90%" }} /><i style={{ width: "75%" }} /><i style={{ width: "85%" }} /><i style={{ width: "55%" }} /><i style={{ width: "80%" }} /></div>
           </div>
         </div>
       </div>
