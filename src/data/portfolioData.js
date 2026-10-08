@@ -1,3 +1,6 @@
+
+
+
 export const PORTFOLIO_DATA = {
   name: "Yohanis Bawon",
   initials: "YSB",
@@ -11,7 +14,6 @@ export const PORTFOLIO_DATA = {
       link: "https://wa.me/6285251188088",
       actionText: "HUBUNGI SAYA",
     },
-
     instagram: {
       label: "Instagram",
       value: "@b.yohanis",
@@ -21,8 +23,14 @@ export const PORTFOLIO_DATA = {
     email: {
       label: "Email",
       value: "yohaneskunfu@gmail.com",
-      link: "yohaneskunfu@gmail.com",
-      actionText: "KIRIM EMAIL"
+      link: "mailto:yohaneskunfu@gmail.com",
+      actionText: "KIRIM EMAIL",
+    },
+    facebook: {
+      label: "Facebook",
+      value: "Katuk Duatiga",
+      link: "https://www.facebook.com/profile.php?id=61568590173877",
+      actionText: "BUKA FACEBOOK",
     }
   },
   typedWords: ["WEB APP", "REACT UI", "WEBSITE"],
@@ -76,12 +84,41 @@ export const PORTFOLIO_DATA = {
     ],
   },
   hobbies: [
-    { title: "Futsal (Pivot)", desc: "Bermain sebagai pemain depan, melatih fokus dan kerja sama tim.", icon: "ball" },
-    { title: "Mixed Martial Arts", desc: "Menyukai MMA untuk melatih disiplin fisik dan mental.", icon: "bolt" },
-    { title: "Musik Phonk & Hip-Hop", desc: "Teman setia saat mengoding.", icon: "head" },
-    { title: "Kustomisasi desktop", desc: "Menata tampilan desktop agar rapi dan nyaman dipakai.", icon: "desk" },
+    { 
+      title: "Futsal (Pivot)", 
+      desc: "Bermain sebagai pemain depan, melatih fokus dan kerja sama tim.", 
+      icon: "ball",
+      btnIcon: "youtube",
+      link: "https://www.youtube.com/shorts/ExG49Epfq50", 
+      actionText: "LIAT BAGIMANA BERMAIN"
+    },
+    { 
+      title: "Mixed Martial Arts", 
+      desc: "Menyukai MMA untuk melatih disiplin fisik dan mental.", 
+      icon: "bolt",
+      btnIcon: "ig",
+      link: "https://www.instagram.com/p/Dcv-NVoojE3/",
+      actionText: "LIHAT AKTIVITAS"
+    },
+    { 
+      title: "Musik Phonk & Hip-Hop", 
+      desc: "Teman setia saat mengoding.", 
+      icon: "head",
+      btnIcon: "youtube",
+      link: "https://www.youtube.com/watch?v=OfS4CxrEZ-o",
+      actionText: "DENGARKAN MUSIK"
+    },
+    { 
+      title: "boxing", 
+      desc: "Menyukai boxing untuk melatih kekuatan dan daya tahan.", 
+      icon: "glove",
+      btnIcon: "ig",
+      link: "https://www.instagram.com/p/DM8kdbKJKSq/",
+      actionText: "LIHAT AKTIVITAS"
+    },
   ],
 };
+
 export const contacts = [
   {
     icon: "phone",
@@ -104,14 +141,11 @@ export const contacts = [
     href: "mailto:yohaneskunfu@gmail.com",
     btn: "KIRIM EMAIL"
   },
-{
-    icon:  "fb",
+  {
+    icon: "fb",
     label: "Facebook",
     value: "Katuk Duatiga",
     href: "https://www.facebook.com/profile.php?id=61568590173877",
     btn: "BUKA FACEBOOK"
-}
-
-
-
+  }
 ];
