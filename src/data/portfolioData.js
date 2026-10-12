@@ -62,15 +62,6 @@ export const PORTFOLIO_DATA = {
       icon: "cloud",
       actionText: "Buka aplikasi",
     },
-    {
-      id: 4,
-      title: "Website Pembelajaran Matematika",
-      description: "Website interaktif untuk mempelajari konsep matematika dasar, dilengkapi dengan contoh soal dan penjelasan serta memiliki kalkulator sederhana.",
-      tags: ["HTML", "CSS"],
-      link: "https://web-mtkysb.vercel.app/",
-      icon: "cloud",
-      actionText: "Buka aplikasi",
-    }
   ],
   skills: {
     main: {

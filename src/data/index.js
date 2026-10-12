@@ -19,14 +19,6 @@ export const projects = [
   },
   {
     icon: "cloud",
-    title: "Website Pembelajaran Sejarah",
-    desc: "Website interaktif untuk mempelajari perjalanan Indonesia menuju kemerdekaan, dilengkapi dengan infografis dan gambar pejuang.",
-    tags: ["Vercel", "GitHub"],
-    href: "https://ysb-perjalanan-indonesia.vercel.app/",
-    cta: "Buka dashboard",
-  },
-  {
-    icon: "cloud",
     title: "Website Pembelajaran Matematika",
     desc: "Website interaktif untuk mempelajari konsep matematika dasar, dilengkapi dengan contoh soal dan penjelasan serta memiliki kalkulator sederhana.",
     tags: ["Vercel", "GitHub"],
