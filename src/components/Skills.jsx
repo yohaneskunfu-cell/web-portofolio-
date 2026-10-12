@@ -20,7 +20,7 @@ export default function Skills() {
           </div>
 
           <div className="lg:col-span-2 border border-edge rounded-3xl p-8 bg-[#1F1F23]">
-            <p className="text-sm font-semibold text-white/50">Sebatas bisa (dasar)</p>
+            <p className="text-sm font-semibold text-white/50">Bisa mengerjakan (bisa)</p>
             <ul className="mt-5 space-y-5">
               {basicSkills.map((s) => (
                 <li key={s.name} className="flex items-center gap-4">

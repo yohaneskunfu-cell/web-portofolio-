@@ -72,6 +72,9 @@ export const PORTFOLIO_DATA = {
       { name: "Laravel", desc: "Backend dan REST API dasar", icon: "code" },
       { name: "MySQL", desc: "Tabel dan query dasar", icon: "db" },
       { name: "Deployment", desc: "Publikasi ke Vercel", icon: "cloud" },
+      { name: "Tailwind CSS", desc: "Membuat tampilan web yang responsif dan menarik", icon: "paint" },
+      { name: "HTML & CSS", desc: "Membuat struktur dan tampilan web dasar", icon: "html" },
+      { name: "JavaScript", desc: "Membuat interaksi dan logika web dasar", icon: "js" },
     ],
   },
   hobbies: [
@@ -138,5 +141,19 @@ export const contacts = [
     value: "Katuk Duatiga",
     href: "https://www.facebook.com/profile.php?id=61568590173877",
     btn: "BUKA FACEBOOK"
+  },
+  {
+    icon: "github",
+    label: "GitHub",
+    value: "yohaneskunfu-cell",
+    href: "https://github.com/yohaneskunfu-cell",
+    btn: "BUKA GITHUB"
+  },
+  {
+    icon: "tik-tok",
+    label: "TikTok",
+    value: "katuk.duatiga",
+    href: "https://www.tiktok.com/@katuk.duatiga",
+    btn: "BUKA TIKTOK"
   }
 ];

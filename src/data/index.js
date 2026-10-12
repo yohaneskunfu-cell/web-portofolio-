@@ -31,10 +31,13 @@ export const basicSkills = [
   { icon: "code", name: "Laravel", desc: "Backend dan REST API dasar" },
   { icon: "db", name: "MySQL", desc: "Tabel dan query dasar" },
   { icon: "cloud", name: "Deployment", desc: "Publikasi ke Vercel" },
+  { icon: "paint", name: "Tailwind CSS", desc: "Membuat tampilan web yang responsif dan menarik" },
+  { icon: "html", name: "HTML & CSS", desc: "Membuat struktur dan tampilan web dasar" },
+  { icon: "js", name: "JavaScript", desc: "Membuat interaksi dan logika web dasar" },
 ];
 
 export const profile = [
-  { icon: "cal", label: "Tanggal lahir", value: "5 September" },
+  { icon: "cal", label: "Tanggal lahir", value: "5 September 2010" },
   { icon: "cap", label: "Sekolah", value: "SMK Bagimu Negeri Ku" },
   { icon: "laptop", label: "Jurusan", value: "Rekayasa Perangkat Lunak" },
 ];
@@ -101,5 +104,20 @@ export const contacts = [
     value: "Katuk Duatiga",
     href: "https://www.facebook.com/profile.php?id=61568590173877",
     btn: "BUKA FACEBOOK"
-  }
+  },
+  {
+    icon: "github",
+    label: "GitHub",
+    value: "yohaneskunfu-cell",
+    href: "https://github.com/yohaneskunfu-cell",
+    btn: "BUKA GITHUB"
+  },
+{
+icon:"tik-tok",
+label:"TikTok",
+value:"katuk.duatiga",
+href:"https://www.tiktok.com/@katuk.duatiga",
+btn:"BUKA TIKTOK"
+}
 ];
+
